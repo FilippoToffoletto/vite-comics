@@ -49,7 +49,6 @@ header{
     list-style: none;
     li{
       padding: 47px 10px;
-      border-bottom: 5px solid none;
       &:hover{
         border-bottom: 5px solid $Primary_Color;
       }
