@@ -1,0 +1,25 @@
+@use './partial/variables'  as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: $Primary_Color;
+}
