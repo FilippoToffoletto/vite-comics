@@ -7,7 +7,7 @@ export default {
 <template>
   <header class="container">
     <div class="logo">
-      <img src="../assets/img/dc-logo.png" alt="Logo DC-comics">
+      <img src="/dc-logo.png" alt="Logo DC-comics">
     </div>
     <nav>
       <ul>
@@ -46,7 +46,6 @@ header{
   }
   ul{
     display: flex;
-    list-style: none;
     li{
       padding: 47px 10px;
       &:hover{

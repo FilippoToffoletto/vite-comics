@@ -2,14 +2,18 @@
 
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import DcBar from './components/DcBar.vue';
 import AppFooter from './components/AppFooter.vue';
+import FindUsBar from './components/FindUsBar.vue';
 
 export default {
   name: 'App',
   components:{
     AppHeader,
     AppMain,
-    AppFooter
+    DcBar,
+    AppFooter,
+    FindUsBar
   }
 }
 </script>
@@ -17,7 +21,9 @@ export default {
 <template>
   <AppHeader />
   <AppMain />
+  <DcBar />
   <AppFooter />
+  <FindUsBar />
 </template>
 
 
