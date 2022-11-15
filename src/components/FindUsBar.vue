@@ -5,11 +5,15 @@ export default {
 </script>
 
 <template>
-  <footer>questo è il find us</footer>
+  <div class="container">
+    
+  </div>
 </template>
 
 
 
 <style lang="scss" scoped> 
+@use '../style/partials/variables' as *;
+@use '../style/partials/mixins' as *;
 
 </style>
