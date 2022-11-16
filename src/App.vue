@@ -5,6 +5,7 @@ import AppMain from './components/AppMain.vue';
 import DcBar from './components/DcBar.vue';
 import AppFooter from './components/AppFooter.vue';
 import FindUsBar from './components/FindUsBar.vue';
+import Jumbotron from './components/Jumbotron.vue';
 
 export default {
   name: 'App',
@@ -13,13 +14,15 @@ export default {
     AppMain,
     DcBar,
     AppFooter,
-    FindUsBar
+    FindUsBar,
+    Jumbotron
   }
 }
 </script>
 
 <template>
   <AppHeader />
+  <Jumbotron />
   <AppMain />
   <DcBar />
   <AppFooter />
