@@ -1,4 +1,5 @@
 <script>
+import card from '../data/cards';
 export default {
     name:'AppMain'
 }

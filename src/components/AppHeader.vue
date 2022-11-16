@@ -48,8 +48,12 @@ header{
     display: flex;
     li{
       padding: 47px 10px;
+      border-bottom: 5px solid white;
       &:hover{
         border-bottom: 5px solid $Primary_Color;
+      }
+      &:hover a{
+        color:$Primary_Color;
       }
       a{
           text-transform: uppercase;

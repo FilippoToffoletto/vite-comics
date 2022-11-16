@@ -88,6 +88,7 @@ footer{
   overflow: hidden;
   padding: 30px 0px;
   position: relative;
+  box-shadow: 18px 36px 22px -26px rgba(0,0,0,0.84) inset;
 }
 h4{
   color: white;
