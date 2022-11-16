@@ -1,7 +1,16 @@
 <script>
+import ComicCard from './ComicCard.vue';
 import card from '../data/cards';
 export default {
-    name:'AppMain'
+    name:'AppMain',
+    components:{
+      ComicCard
+    },
+    data(){
+        return{
+            card
+        }
+    }
 }
 </script>
 
@@ -9,6 +18,7 @@ export default {
   <main>
     <div class="container">
       <p>--->Content goes here </p>
+      <ComicCard v-for="(item, index) in card" :key="index" :card="item"/>
     </div>
   </main>
 </template>
